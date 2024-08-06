@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Users Management App</h1>
+    </header>
+
+    <main class="mainBox">
+        <h2>Users List</h2>
+        <a href="./addUser/newuser.html" id="addUserBtn">Add User</a>
+        <table>
+            <thead>
+                <tr>
+                    <th>User Fisrt Name</th>
+                    <th>User Last Name</th>
+                    <th>User Email Id</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+
+        <div class="pagination"></div>
+    </main>
+
+    <dialog id="deleteDialog">
+        <p></p>
+        <button id="cancelButton">Cancel</button>
+        <button id="deleteButton">Delete</button>
+    </dialog>
+
+    <footer>
+        <span>All Rights Reserved <span class="year"></span> &commat;Isaac Mwesigwa</span>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    /* outline: 1px solid red; */
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main .updateForm{
+    display:  grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 2em;
+    border-radius: .5em;
+    
+}
+
+main .updateForm label{
+    text-align: right;
+    padding-top: .5em;
+}
+
+main .updateForm input{
+    border: 1px solid #8a8989;
+    border-radius: .5em;
+    height: 40px;
+    font-size: 1.1em;
+}
+
+main .updateForm *{
+    margin: .5em;
+    height: 35px;
+}
+
+main .updateForm button{
+    grid-column-start: 2;
+    width: 50%;
+    justify-self: end;
+}

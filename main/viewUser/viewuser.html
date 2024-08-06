@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View User</title>
+    <link rel="stylesheet" href="viewUser.css">
+</head>
+
+<body>
+    <div class="profileCard">
+        <div class="userImage">
+            <img src="image.png" alt="user">
+            <button>Edit</button>
+        </div>
+        <div class="userInfo">
+            <h1>User Profile</h1>
+            <form class="userData">
+                <div class="section1">
+                    <div class="formCard">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" readonly><br>
+                    </div>
+
+                    <div class="formCard">
+                        <label for="username">User Name: </label>
+                        <input type="text" name="username" id="username" readonly><br>
+                    </div>
+
+                    <div class="formCard">
+                        <label for="company">Company: </label>
+                        <input type="text" name="company" id="company" readonly>
+                    </div>
+                </div>
+                <div class="section2">
+                    <div class="formCard">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" readonly><br>
+                    </div>
+
+                    <div class="formCard">
+                        <label for="phone">Mobile: </label>
+                        <input type="tel" name="phone" id="phone" readonly><br>
+                    </div>
+
+                    <div class="formCard">
+                        <label for="website">Website: </label>
+                        <input type="text" name="website" id="website" readonly>
+                    </div>
+
+                    <div class="update" hidden>
+                        <button type="submit">Update</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="viewUser.js"></script>
+</body>
+
+</html>
